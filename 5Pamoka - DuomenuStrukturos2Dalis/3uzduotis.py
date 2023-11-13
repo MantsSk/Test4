@@ -23,5 +23,9 @@ for sentence in sentences:
         else:
             word_frequency[word] = 1
 
+        # or you can do this
+        # Update the dictionary using .get()
+        # word_frequency[word] = word_frequency.get(word, 0) + 1
+
 # Print the word frequency dictionary
 print(word_frequency)
