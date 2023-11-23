@@ -7,7 +7,7 @@ def puzzle_pieces(list1, list2):
 
     for i in range(1, len(list1)):
         current_sum = list1[i] + list2[i]
-        sum_equal = sum_equal and (current_sum == total_sum)
+        sum_equal = current_sum == total_sum
 
     return sum_equal
 
